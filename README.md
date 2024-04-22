@@ -10,9 +10,9 @@ Original project: [50 Days of JavaScript Challenges](https://github.com/bradtrav
 
 Please visit Traversy Media's website and YouTube channel for more great content and tutorials.
 
-##Journey
+## Journey
 
-###Day 1
+### Day 1
 
 - *Challange 1:* Expanding Cards.
 - *Challange 2:* Stepper.
