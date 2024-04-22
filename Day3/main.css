@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.833);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.page{
+    background-color: #fff;
+    transition: all 0.6s ease-in-out;
+    transform-origin: left top;
+}
+
+.container{
+    padding: 6rem 20rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+}
+
+.title h1{
+    font-size: 2rem;
+}
+
+.title h6{
+    color: #777;
+    font-weight: 300;
+    text-indent: 15px;
+    font-style: italic;
+}
+
+p{
+    color: #616161;
+}
+
+.figure{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.figure h3{
+    font-size: 1.4rem;
+}
+
+.figure img{
+    width: 100%;
+}
+
+.slide{
+    transform: rotate(-22deg);
+}
+
+.menu{
+    z-index: 1;
+    position: fixed;
+    bottom: 10%;
+    left: -100px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu .link a{
+    font-size: 1.3rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.show .link:nth-child(2){
+    padding-left: 1rem;
+}
+
+.show .link:nth-child(3){
+    padding-left: 2rem;
+}
+
+.show{
+    bottom: 10%;
+    left: 70px;
+}
+
+.btn{
+    padding: 7rem;
+    position: fixed;
+    top: -110px;
+    left: -110px;
+    background-color: rgb(0, 183, 255);
+    border-radius: 50%;
+    cursor: pointer;
+    transform: rotate(40deg);
+    transition: all 0.4s ease-in-out;
+}
+
+.btn .burger{
+    position: absolute;
+    right: 25px;
+    bottom: 80px;
+    transform: rotate(-39deg);
+}
+
+.btn .exit{
+    position: absolute;
+    bottom: 30px;
+    left: 60px;
+    transform: rotate(70deg);
+}
+
+.rotate{
+    transform: rotate(-70deg);
+}
