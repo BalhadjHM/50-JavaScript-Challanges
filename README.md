@@ -14,6 +14,12 @@ Please visit Traversy Media's website and YouTube channel for more great content
 
 ### Day 1
 
-- *Challange 1:* Expanding Cards.
-- *Challange 2:* Stepper.
-- *Challange 3:* Side-bar Navigation.
+- **Challange 1:** Expanding Cards.
+- **Challange 2:** Stepper.
+- **Challange 3:** Side-bar Navigation.
+
+### Day 2
+
+- **Challange 4:** Hidden Search Box.
+- **Challange 5:** Loading Page.
+- **Challange 6:** Scrolling Animation.
