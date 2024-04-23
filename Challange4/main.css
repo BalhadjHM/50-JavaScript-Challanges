@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 138, 54);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    padding: 0.5rem;
+    position: relative;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0px 0px 5px #0000002e;
+}
+
+svg{
+    cursor: pointer;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+input{
+    width: 45px;
+    padding: 0.7rem 1rem;
+    opacity: 0;
+    border: 0;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus{
+    border: 0;
+    outline: 0;
+}
+
+.active input{
+    width: 300px;
+    opacity: 1;
+}
+
+.active svg{
+    transform: translateX(255px);
+}
